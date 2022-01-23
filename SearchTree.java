@@ -67,7 +67,7 @@ public class SearchTree implements NodeList {
                 parentItem = currentItem;
                 currentItem = currentItem.next();
 
-            }else if(comparison <0){
+            }else if(comparison >0){
                 parentItem = currentItem;
                 currentItem = currentItem.previous();
             }else{
