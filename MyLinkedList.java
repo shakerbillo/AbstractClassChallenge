@@ -48,6 +48,7 @@ public class MyLinkedList implements NodeList{
            }else{
                // equal
                System.out.println(newItem.getValue() + " is already present, not added");
+               return false;
            }
        }
         return false;
